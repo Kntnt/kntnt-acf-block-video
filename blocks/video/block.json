@@ -1,0 +1,17 @@
+{
+  "name": "kntnt/video",
+  "title": "Kntnt Video",
+  "description": "Embed a video.",
+  "category": "media",
+  "icon": "video",
+  "keywords": ["video", "youtube"],
+  "supports": {
+    "align": true
+  },
+  "style": [ "file:./video.css" ],
+  "version": "1.0.0",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "video.php"
+  }
+}
